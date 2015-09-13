@@ -1,3 +1,5 @@
+//FOR THE USE OF BRAZILIAN PORTUGUESE USE language='pt-BR'
+
 function voice(language, text) {
   speechSynthesis.cancel(); // destroying past queue
   var voices = window.speechSynthesis.getVoices();
